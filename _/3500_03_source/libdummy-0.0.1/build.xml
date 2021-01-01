@@ -1,0 +1,22 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/libdummy-0.0.1-SNAPSHOT.jar" basedir="build/classes">
+            <manifest>
+                <attribute name="Main-Class" value="com.example.dummy.Dummy"/>
+            </manifest>
+        </jar>
+    </target>
+
+ 	<target name="main" depends="clean,compile,jar"/>
+</project>

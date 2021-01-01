@@ -1,0 +1,13 @@
+# monkey
+tap 100 180
+type 123
+tap 100 280
+press DEL
+press DEL
+press DEL
+press DEL
+press DEL
+press DEL
+press DEL
+press DEL
+type -460.3

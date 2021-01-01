@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TemperatureConverter"/>
+	<classpathentry kind="lib" path="/home/diego/workspace-aatg-08/TemperatureConverterTest/libs/easymock-2.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/diego/workspace-aatg-08/TemperatureConverterTest/libs/hamcrest-core-1.2-android.jar"/>
+	<classpathentry kind="lib" path="/home/diego/workspace-aatg-08/TemperatureConverterTest/libs/hamcrest-integration-1.2-android.jar"/>
+	<classpathentry kind="lib" path="/home/diego/workspace-aatg-08/TemperatureConverterTest/libs/hamcrest-library-1.2-android.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
